@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login </title>
+    <style>
+        body{
+            background-image: url(../html/img1.jpg );
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        form{
+            background-color:black;
+            text-align: center;
+            margin: 0% 30% 0% 30%;
+            margin-top: 11%;
+            padding: 5% 5% 5% 5%;
+            border-style: solid;
+            border-color: rgb(124, 243, 243);
+            border-radius: 5%;
+            border-width: 5px;
+        }
+        h1{
+            margin-top: 0%;
+            color: red;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        label{
+            color: white;
+        }
+        label:hover{
+            background-color: aqua;
+        }
+        
+        input[type=text] {
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid red;
+            border-radius: 5px;
+
+          }
+          input[type=password] {
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid red;
+            border-radius: 5px;
+            
+          }
+          input[ type=button]{
+            width: 25%;
+            padding: 6px;
+            margin: 5px 0;;
+            border-radius: 5%;
+            background-color: red;
+          }
+          p{
+            color: white;
+          }
+          a{
+            color: skyblue;
+          }
+          
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <form>
+            <h1>SIGN IN</h1>
+            <label for="username">USERNAME:</label>
+            <input type="text" id="username" name="USERNAME" placeholder="userid/phno/email"><br><br>
+            <label for="password">PASSWORD:</label>
+            <input type="password" id="password" name="PASSWORD"><br>
+            <p>Don't have any account <a href="../html/registration.html">REGISTER NOW</a>
+            </p>
+            <a href="welcome.html"><input type="button" value="Login" ></a> 
+        </form>
+     
+          </div>
+          
+    </div>
+</body>
+</html>
