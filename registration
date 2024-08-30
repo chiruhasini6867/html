@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <style>
+        body{
+            background-image: url(../html/img2.jpg );
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        form{
+            background-color:black;
+            text-align: center;
+            margin: 0% 30% 0% 30%;
+            margin-top: 11%;
+            margin-bottom: 11%;
+            padding: 5% 5% 5% 5%;
+            border-style: solid;
+            border-color: rgb(124, 243, 243);
+            border-radius: 5%;
+            border-width: 5px;
+        }
+        h1{
+            margin-top: 0%;
+            color: red;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        label{
+            color: white;
+        }
+        label:hover{
+            background-color: aqua;
+        }
+        input[type=text] {
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid red;
+            border-radius: 5px;
+          }
+          input[type=tel] {
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid red;
+            border-radius: 5px;
+          }
+          input[type=password] {
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid red;
+            border-radius: 5px;
+          }
+          input[ type=button]{
+            width: 25%;
+            padding: 6px;
+            margin: 20px 0;;
+            border-radius: 5%;
+            background-color: red;
+          }
+          input:hover{
+            background-color: gray;
+          }
+          input{
+            box-shadow: cornsilk;
+            width: 76.5%;
+          }
+        
+    </style>
+</head>
+<body>
+    <form >
+        <h1>REGISTER NOW</h1>
+        <label for="name">ENTER YOUR NAME:</label>
+        <input type="text" id="name" name="NAME" ><br><br>
+        <label for="email">ENTER EMAIL:</label>
+        <input type="text" id="email" name="EMAIL" placeholder="@gmail.com"><br><br>
+        <label for="phno">RENTER MOBILE NUMBER:</label>
+        <input type="tel" id="phno" name="MOBILE NUMBER" placeholder="00000-00000"><br><br>
+        <label for="password">CREATE PASSWORD:</label>
+        <input type="password" id="password" name="PASSWORD"><br>
+        <label for="password">RENTER PASSWORD:</label>
+        <input type="password" id="password" name="PASSWORD"><br>
+        <a href="../html/welcome.html " ><input type="button" value="Register now"></a>
+    </form>
+    
+</body>
+</html>
